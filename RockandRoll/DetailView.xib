@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="x9M-6e-aCS" customClass="DetailView">
+            <rect key="frame" x="0.0" y="0.0" width="307" height="350"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BXF-2o-hhJ">
+                    <rect key="frame" x="44" y="127" width="212" height="38"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="23"/>
+                    <color key="textColor" red="0.043291953649999999" green="0.37097171340000001" blue="0.62713068179999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1g1-Zh-XrY">
+                    <rect key="frame" x="40" y="157" width="216" height="36"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="18"/>
+                    <color key="textColor" red="0.043291953649999999" green="0.37097171340000001" blue="0.62713068179999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="song1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ggJ-fi-NfY">
+                    <rect key="frame" x="65" y="8" width="165" height="127"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUm-C0-M7M">
+                    <rect key="frame" x="11" y="200" width="284" height="142"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Courier-BoldOblique" family="Courier" pointSize="10"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="0.82846359359999999" green="1" blue="0.95171672500000004" alpha="1" colorSpace="calibratedRGB"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imgSongIcon" destination="ggJ-fi-NfY" id="pJs-aa-urj"/>
+                <outlet property="lblBandName" destination="1g1-Zh-XrY" id="umN-Eb-eEV"/>
+                <outlet property="lblTitle" destination="BXF-2o-hhJ" id="9sd-o0-BNd"/>
+                <outlet property="txtSongDetail" destination="UUm-C0-M7M" id="Nbf-87-c39"/>
+            </connections>
+            <point key="canvasLocation" x="840.5" y="471"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="song1.jpg" width="500" height="500"/>
+    </resources>
+</document>

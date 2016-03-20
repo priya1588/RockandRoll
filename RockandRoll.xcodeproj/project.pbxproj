@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE85AD2D1C9AEFA00068790C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85AD2C1C9AEFA00068790C /* main.m */; };
+		AE85AD301C9AEFA00068790C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85AD2F1C9AEFA00068790C /* AppDelegate.m */; };
+		AE85AD331C9AEFA00068790C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85AD321C9AEFA00068790C /* ViewController.m */; };
+		AE85AD361C9AEFA00068790C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE85AD341C9AEFA00068790C /* Main.storyboard */; };
+		AE85AD381C9AEFA00068790C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE85AD371C9AEFA00068790C /* Assets.xcassets */; };
+		AE85AD3B1C9AEFA00068790C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE85AD391C9AEFA00068790C /* LaunchScreen.storyboard */; };
+		AE85AD461C9AEFA00068790C /* RockandRollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85AD451C9AEFA00068790C /* RockandRollTests.m */; };
+		AE85AD511C9AEFA00068790C /* RockandRollUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85AD501C9AEFA00068790C /* RockandRollUITests.m */; };
+		AE85AD611C9AF17E0068790C /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85AD5F1C9AF17E0068790C /* TableViewCell.m */; };
+		AE85AD641C9AF60D0068790C /* song1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE85AD631C9AF60D0068790C /* song1.jpg */; };
+		AE85AD671C9AF8180068790C /* SongDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85AD661C9AF8180068790C /* SongDetailsViewController.m */; };
+		AE85AD6A1C9B121F0068790C /* DetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85AD691C9B121F0068790C /* DetailView.m */; };
+		AE85AD6E1C9B51960068790C /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE85AD6D1C9B51960068790C /* DetailView.xib */; };
+		AE85AD721C9C0DC50068790C /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AE85AD711C9C0DC50068790C /* libsqlite3.0.tbd */; };
+		AE85AD751C9C0E740068790C /* DBHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85AD741C9C0E740068790C /* DBHandler.m */; };
+		AE85AD781C9C0E970068790C /* SongModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85AD771C9C0E970068790C /* SongModel.m */; };
+		AE85AD7A1C9C30DD0068790C /* potf1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE85AD791C9C30DD0068790C /* potf1.jpg */; };
+		AE85AD8B1C9C37C20068790C /* potf2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE85AD821C9C37C20068790C /* potf2.jpg */; };
+		AE85AD8C1C9C37C30068790C /* potf3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE85AD831C9C37C20068790C /* potf3.jpg */; };
+		AE85AD8D1C9C37C30068790C /* potf4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE85AD841C9C37C20068790C /* potf4.jpg */; };
+		AE85AD8E1C9C37C30068790C /* potf5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE85AD851C9C37C20068790C /* potf5.jpg */; };
+		AE85AD8F1C9C37C30068790C /* potf6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE85AD861C9C37C20068790C /* potf6.jpg */; };
+		AE85AD901C9C37C30068790C /* potf7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE85AD871C9C37C20068790C /* potf7.jpg */; };
+		AE85AD911C9C37C30068790C /* potf8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE85AD881C9C37C20068790C /* potf8.jpg */; };
+		AE85AD921C9C37C30068790C /* potf9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE85AD891C9C37C20068790C /* potf9.jpg */; };
+		AE85AD931C9C37C30068790C /* potf10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE85AD8A1C9C37C20068790C /* potf10.jpg */; };
+		AE85AD951C9C3C350068790C /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = AE85AD941C9C3C350068790C /* background.png */; };
+		AE9070281C9D787800851291 /* arrow-back.png in Resources */ = {isa = PBXBuildFile; fileRef = AE9070271C9D787800851291 /* arrow-back.png */; };
+		AE90702A1C9D791900851291 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = AE9070291C9D791900851291 /* back.png */; };
+		AE90702D1C9D810B00851291 /* SongsDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = AE90702C1C9D80B800851291 /* SongsDB.sqlite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE85AD421C9AEFA00068790C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE85AD201C9AEFA00068790C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE85AD271C9AEFA00068790C;
+			remoteInfo = RockandRoll;
+		};
+		AE85AD4D1C9AEFA00068790C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE85AD201C9AEFA00068790C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE85AD271C9AEFA00068790C;
+			remoteInfo = RockandRoll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE85AD281C9AEFA00068790C /* RockandRoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockandRoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE85AD2C1C9AEFA00068790C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE85AD2E1C9AEFA00068790C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE85AD2F1C9AEFA00068790C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE85AD311C9AEFA00068790C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE85AD321C9AEFA00068790C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE85AD351C9AEFA00068790C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE85AD371C9AEFA00068790C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE85AD3A1C9AEFA00068790C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE85AD3C1C9AEFA00068790C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE85AD411C9AEFA00068790C /* RockandRollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockandRollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE85AD451C9AEFA00068790C /* RockandRollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RockandRollTests.m; sourceTree = "<group>"; };
+		AE85AD471C9AEFA00068790C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE85AD4C1C9AEFA00068790C /* RockandRollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockandRollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE85AD501C9AEFA00068790C /* RockandRollUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RockandRollUITests.m; sourceTree = "<group>"; };
+		AE85AD521C9AEFA00068790C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE85AD5E1C9AF17E0068790C /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		AE85AD5F1C9AF17E0068790C /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		AE85AD631C9AF60D0068790C /* song1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = song1.jpg; sourceTree = "<group>"; };
+		AE85AD651C9AF8180068790C /* SongDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongDetailsViewController.h; sourceTree = "<group>"; };
+		AE85AD661C9AF8180068790C /* SongDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongDetailsViewController.m; sourceTree = "<group>"; };
+		AE85AD681C9B121F0068790C /* DetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailView.h; sourceTree = "<group>"; };
+		AE85AD691C9B121F0068790C /* DetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailView.m; sourceTree = "<group>"; };
+		AE85AD6D1C9B51960068790C /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		AE85AD711C9C0DC50068790C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		AE85AD731C9C0E730068790C /* DBHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHandler.h; sourceTree = "<group>"; };
+		AE85AD741C9C0E740068790C /* DBHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHandler.m; sourceTree = "<group>"; };
+		AE85AD761C9C0E970068790C /* SongModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongModel.h; sourceTree = "<group>"; };
+		AE85AD771C9C0E970068790C /* SongModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongModel.m; sourceTree = "<group>"; };
+		AE85AD791C9C30DD0068790C /* potf1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potf1.jpg; sourceTree = "<group>"; };
+		AE85AD821C9C37C20068790C /* potf2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potf2.jpg; sourceTree = "<group>"; };
+		AE85AD831C9C37C20068790C /* potf3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potf3.jpg; sourceTree = "<group>"; };
+		AE85AD841C9C37C20068790C /* potf4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potf4.jpg; sourceTree = "<group>"; };
+		AE85AD851C9C37C20068790C /* potf5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potf5.jpg; sourceTree = "<group>"; };
+		AE85AD861C9C37C20068790C /* potf6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potf6.jpg; sourceTree = "<group>"; };
+		AE85AD871C9C37C20068790C /* potf7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potf7.jpg; sourceTree = "<group>"; };
+		AE85AD881C9C37C20068790C /* potf8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potf8.jpg; sourceTree = "<group>"; };
+		AE85AD891C9C37C20068790C /* potf9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potf9.jpg; sourceTree = "<group>"; };
+		AE85AD8A1C9C37C20068790C /* potf10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potf10.jpg; sourceTree = "<group>"; };
+		AE85AD941C9C3C350068790C /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		AE9070271C9D787800851291 /* arrow-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-back.png"; sourceTree = "<group>"; };
+		AE9070291C9D791900851291 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		AE90702C1C9D80B800851291 /* SongsDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = SongsDB.sqlite; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE85AD251C9AEFA00068790C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE85AD721C9C0DC50068790C /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE85AD3E1C9AEFA00068790C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE85AD491C9AEFA00068790C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE85AD1F1C9AEFA00068790C = {
+			isa = PBXGroup;
+			children = (
+				AE85AD711C9C0DC50068790C /* libsqlite3.0.tbd */,
+				AE85AD2A1C9AEFA00068790C /* RockandRoll */,
+				AE85AD441C9AEFA00068790C /* RockandRollTests */,
+				AE85AD4F1C9AEFA00068790C /* RockandRollUITests */,
+				AE85AD291C9AEFA00068790C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE85AD291C9AEFA00068790C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE85AD281C9AEFA00068790C /* RockandRoll.app */,
+				AE85AD411C9AEFA00068790C /* RockandRollTests.xctest */,
+				AE85AD4C1C9AEFA00068790C /* RockandRollUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE85AD2A1C9AEFA00068790C /* RockandRoll */ = {
+			isa = PBXGroup;
+			children = (
+				AE85AD2E1C9AEFA00068790C /* AppDelegate.h */,
+				AE85AD2F1C9AEFA00068790C /* AppDelegate.m */,
+				AE85AD761C9C0E970068790C /* SongModel.h */,
+				AE85AD771C9C0E970068790C /* SongModel.m */,
+				AE85AD731C9C0E730068790C /* DBHandler.h */,
+				AE85AD741C9C0E740068790C /* DBHandler.m */,
+				AE85AD651C9AF8180068790C /* SongDetailsViewController.h */,
+				AE85AD661C9AF8180068790C /* SongDetailsViewController.m */,
+				AE85AD311C9AEFA00068790C /* ViewController.h */,
+				AE85AD321C9AEFA00068790C /* ViewController.m */,
+				AE85AD5E1C9AF17E0068790C /* TableViewCell.h */,
+				AE85AD5F1C9AF17E0068790C /* TableViewCell.m */,
+				AE85AD681C9B121F0068790C /* DetailView.h */,
+				AE85AD691C9B121F0068790C /* DetailView.m */,
+				AE85AD6D1C9B51960068790C /* DetailView.xib */,
+				AE85AD341C9AEFA00068790C /* Main.storyboard */,
+				AE85AD371C9AEFA00068790C /* Assets.xcassets */,
+				AE85AD391C9AEFA00068790C /* LaunchScreen.storyboard */,
+				AE85AD3C1C9AEFA00068790C /* Info.plist */,
+				AE85AD2B1C9AEFA00068790C /* Supporting Files */,
+			);
+			path = RockandRoll;
+			sourceTree = "<group>";
+		};
+		AE85AD2B1C9AEFA00068790C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE90702C1C9D80B800851291 /* SongsDB.sqlite */,
+				AE90702B1C9D79C300851291 /* images */,
+				AE85AD2C1C9AEFA00068790C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE85AD441C9AEFA00068790C /* RockandRollTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE85AD451C9AEFA00068790C /* RockandRollTests.m */,
+				AE85AD471C9AEFA00068790C /* Info.plist */,
+			);
+			path = RockandRollTests;
+			sourceTree = "<group>";
+		};
+		AE85AD4F1C9AEFA00068790C /* RockandRollUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE85AD501C9AEFA00068790C /* RockandRollUITests.m */,
+				AE85AD521C9AEFA00068790C /* Info.plist */,
+			);
+			path = RockandRollUITests;
+			sourceTree = "<group>";
+		};
+		AE90702B1C9D79C300851291 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AE9070271C9D787800851291 /* arrow-back.png */,
+				AE85AD941C9C3C350068790C /* background.png */,
+				AE85AD821C9C37C20068790C /* potf2.jpg */,
+				AE85AD831C9C37C20068790C /* potf3.jpg */,
+				AE85AD841C9C37C20068790C /* potf4.jpg */,
+				AE85AD851C9C37C20068790C /* potf5.jpg */,
+				AE85AD861C9C37C20068790C /* potf6.jpg */,
+				AE85AD871C9C37C20068790C /* potf7.jpg */,
+				AE85AD881C9C37C20068790C /* potf8.jpg */,
+				AE85AD891C9C37C20068790C /* potf9.jpg */,
+				AE85AD8A1C9C37C20068790C /* potf10.jpg */,
+				AE85AD791C9C30DD0068790C /* potf1.jpg */,
+				AE85AD631C9AF60D0068790C /* song1.jpg */,
+				AE9070291C9D791900851291 /* back.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE85AD271C9AEFA00068790C /* RockandRoll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE85AD551C9AEFA00068790C /* Build configuration list for PBXNativeTarget "RockandRoll" */;
+			buildPhases = (
+				AE85AD241C9AEFA00068790C /* Sources */,
+				AE85AD251C9AEFA00068790C /* Frameworks */,
+				AE85AD261C9AEFA00068790C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RockandRoll;
+			productName = RockandRoll;
+			productReference = AE85AD281C9AEFA00068790C /* RockandRoll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE85AD401C9AEFA00068790C /* RockandRollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE85AD581C9AEFA00068790C /* Build configuration list for PBXNativeTarget "RockandRollTests" */;
+			buildPhases = (
+				AE85AD3D1C9AEFA00068790C /* Sources */,
+				AE85AD3E1C9AEFA00068790C /* Frameworks */,
+				AE85AD3F1C9AEFA00068790C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE85AD431C9AEFA00068790C /* PBXTargetDependency */,
+			);
+			name = RockandRollTests;
+			productName = RockandRollTests;
+			productReference = AE85AD411C9AEFA00068790C /* RockandRollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE85AD4B1C9AEFA00068790C /* RockandRollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE85AD5B1C9AEFA00068790C /* Build configuration list for PBXNativeTarget "RockandRollUITests" */;
+			buildPhases = (
+				AE85AD481C9AEFA00068790C /* Sources */,
+				AE85AD491C9AEFA00068790C /* Frameworks */,
+				AE85AD4A1C9AEFA00068790C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE85AD4E1C9AEFA00068790C /* PBXTargetDependency */,
+			);
+			name = RockandRollUITests;
+			productName = RockandRollUITests;
+			productReference = AE85AD4C1C9AEFA00068790C /* RockandRollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE85AD201C9AEFA00068790C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Priya Mishra";
+				TargetAttributes = {
+					AE85AD271C9AEFA00068790C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AE85AD401C9AEFA00068790C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AE85AD271C9AEFA00068790C;
+					};
+					AE85AD4B1C9AEFA00068790C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AE85AD271C9AEFA00068790C;
+					};
+				};
+			};
+			buildConfigurationList = AE85AD231C9AEFA00068790C /* Build configuration list for PBXProject "RockandRoll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE85AD1F1C9AEFA00068790C;
+			productRefGroup = AE85AD291C9AEFA00068790C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE85AD271C9AEFA00068790C /* RockandRoll */,
+				AE85AD401C9AEFA00068790C /* RockandRollTests */,
+				AE85AD4B1C9AEFA00068790C /* RockandRollUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE85AD261C9AEFA00068790C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE90702D1C9D810B00851291 /* SongsDB.sqlite in Resources */,
+				AE85AD911C9C37C30068790C /* potf8.jpg in Resources */,
+				AE85AD951C9C3C350068790C /* background.png in Resources */,
+				AE85AD7A1C9C30DD0068790C /* potf1.jpg in Resources */,
+				AE85AD931C9C37C30068790C /* potf10.jpg in Resources */,
+				AE85AD3B1C9AEFA00068790C /* LaunchScreen.storyboard in Resources */,
+				AE85AD8B1C9C37C20068790C /* potf2.jpg in Resources */,
+				AE85AD921C9C37C30068790C /* potf9.jpg in Resources */,
+				AE9070281C9D787800851291 /* arrow-back.png in Resources */,
+				AE85AD641C9AF60D0068790C /* song1.jpg in Resources */,
+				AE85AD901C9C37C30068790C /* potf7.jpg in Resources */,
+				AE85AD8D1C9C37C30068790C /* potf4.jpg in Resources */,
+				AE90702A1C9D791900851291 /* back.png in Resources */,
+				AE85AD8C1C9C37C30068790C /* potf3.jpg in Resources */,
+				AE85AD381C9AEFA00068790C /* Assets.xcassets in Resources */,
+				AE85AD361C9AEFA00068790C /* Main.storyboard in Resources */,
+				AE85AD8E1C9C37C30068790C /* potf5.jpg in Resources */,
+				AE85AD6E1C9B51960068790C /* DetailView.xib in Resources */,
+				AE85AD8F1C9C37C30068790C /* potf6.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE85AD3F1C9AEFA00068790C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE85AD4A1C9AEFA00068790C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE85AD241C9AEFA00068790C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE85AD331C9AEFA00068790C /* ViewController.m in Sources */,
+				AE85AD671C9AF8180068790C /* SongDetailsViewController.m in Sources */,
+				AE85AD611C9AF17E0068790C /* TableViewCell.m in Sources */,
+				AE85AD301C9AEFA00068790C /* AppDelegate.m in Sources */,
+				AE85AD2D1C9AEFA00068790C /* main.m in Sources */,
+				AE85AD751C9C0E740068790C /* DBHandler.m in Sources */,
+				AE85AD781C9C0E970068790C /* SongModel.m in Sources */,
+				AE85AD6A1C9B121F0068790C /* DetailView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE85AD3D1C9AEFA00068790C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE85AD461C9AEFA00068790C /* RockandRollTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE85AD481C9AEFA00068790C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE85AD511C9AEFA00068790C /* RockandRollUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE85AD431C9AEFA00068790C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE85AD271C9AEFA00068790C /* RockandRoll */;
+			targetProxy = AE85AD421C9AEFA00068790C /* PBXContainerItemProxy */;
+		};
+		AE85AD4E1C9AEFA00068790C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE85AD271C9AEFA00068790C /* RockandRoll */;
+			targetProxy = AE85AD4D1C9AEFA00068790C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE85AD341C9AEFA00068790C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE85AD351C9AEFA00068790C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE85AD391C9AEFA00068790C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE85AD3A1C9AEFA00068790C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE85AD531C9AEFA00068790C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE85AD541C9AEFA00068790C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE85AD561C9AEFA00068790C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RockandRoll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Priya.RockandRoll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE85AD571C9AEFA00068790C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RockandRoll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Priya.RockandRoll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE85AD591C9AEFA00068790C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RockandRollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Priya.RockandRollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockandRoll.app/RockandRoll";
+			};
+			name = Debug;
+		};
+		AE85AD5A1C9AEFA00068790C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RockandRollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Priya.RockandRollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockandRoll.app/RockandRoll";
+			};
+			name = Release;
+		};
+		AE85AD5C1C9AEFA00068790C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RockandRollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Priya.RockandRollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RockandRoll;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AE85AD5D1C9AEFA00068790C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RockandRollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Priya.RockandRollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RockandRoll;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE85AD231C9AEFA00068790C /* Build configuration list for PBXProject "RockandRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE85AD531C9AEFA00068790C /* Debug */,
+				AE85AD541C9AEFA00068790C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE85AD551C9AEFA00068790C /* Build configuration list for PBXNativeTarget "RockandRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE85AD561C9AEFA00068790C /* Debug */,
+				AE85AD571C9AEFA00068790C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE85AD581C9AEFA00068790C /* Build configuration list for PBXNativeTarget "RockandRollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE85AD591C9AEFA00068790C /* Debug */,
+				AE85AD5A1C9AEFA00068790C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE85AD5B1C9AEFA00068790C /* Build configuration list for PBXNativeTarget "RockandRollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE85AD5C1C9AEFA00068790C /* Debug */,
+				AE85AD5D1C9AEFA00068790C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE85AD201C9AEFA00068790C /* Project object */;
+}
