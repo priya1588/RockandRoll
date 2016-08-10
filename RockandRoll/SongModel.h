@@ -16,4 +16,5 @@
 @property(nonatomic,strong)NSString* imgSong;
 @property(nonatomic,strong)NSString* songDetail;
 
+//
 @end
